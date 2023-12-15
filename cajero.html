@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <script src="inicioSesion.js" defer></script>
+    <script src="cajero.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="pantalla">
+        <button id="btnConsultarSaldo" onclick="consultarSaldo()">Consultar Saldo</button>
+        <div id="infoSaldo"></div>   
+        
+        <div class="horizontal">
+            <label for="montoAIngresar">Monto a Ingresar:</label>
+            <input type="number" id="montoAIngresar" min="1">
+            <button onclick="ingresarMonto()">Ingresar Monto</button>
+            <div id="resultadoIngreso"></div>
+        </div>
+        
+        <div class="horizontal">
+            <label for="montoARetirar">Monto a Retirar:</label>
+            <input type="number" id="montoARetirar" min="1">
+            <button onclick="retirarMonto()">Retirar Monto</button>
+            <div id="resultadoRetiro"></div>
+        </div>
+            
+    </section>
+    
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+text-align: center;
+align-content: center;
+height: 600px;
+display: flex;
+justify-content:center;
+align-items:center;
+
+background-color: rgb(68, 109, 145);
+}
+
+h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pantalla {
+    background-color: rgb(227, 233, 238);
+    padding: 60px;
+    height: 200px;
+    width: 200px;
+    
+}
